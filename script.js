@@ -33,3 +33,9 @@ function alertaEnlaces(){
         2. ${cantidadEnlaces[cantidadEnlaces.length-1]}`)
 }
 
+
+
+const seccionContenedor = document.getElementById('contenedor');
+const elementosLista = document.getElementsByClassName('segundo');
+
+seccionContenedor.innerHTML = "¡Hola!"
